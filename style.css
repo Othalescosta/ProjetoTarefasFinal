@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "GothamMedium";
+  src: url(/font/GothamMedium.ttf);
+}
+body{
+ font-family: "GothamMedium";
+
+#title{
+    text-align: center;
+    color: azure;
+} 
+.split {
+    height: 100%;
+    
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  
+  .right {
+    right: 0;
+    background-color: rgb(160, 155, 155);
+    width: 100%;
+  }
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.login{
+   
+    border-radius: 10%;
+}
+.box{
+    background-color: rgb(72, 78, 95);
+    border-radius: 8%;
+    align-items: center;
+}
+.centered img {
+    border-radius: 50%;
+  }
+#entrar{
+    border-radius: 25%;
+    height: 1.5cm;
+}
+#cadastro{
+  color: white;
+  font-size: 20px;
+
+}
+
+ 
